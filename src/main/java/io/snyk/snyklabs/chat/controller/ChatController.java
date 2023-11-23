@@ -29,6 +29,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 import static java.lang.String.format;
+import org.springframework.web.util.HtmlUtils;
 
 @Controller
 public class ChatController {
